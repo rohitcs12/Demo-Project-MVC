@@ -1,0 +1,23 @@
+﻿@using(Html.BeginForm("Update","Employee",FormMethod.Post))
+{
+	@ViewBag.msg
+<table>
+	<tr>
+		<td><input type="text" name="empcode" placeholder="Enter Employee Code" /></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="name" placeholder="Enter Employee Name" /></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="designation" placeholder="Enter Employee Designation" /></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="salary" placeholder="Enter Employee Salary" /></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" value="Update Information" />
+		</td>
+	</tr>
+</table>
+}

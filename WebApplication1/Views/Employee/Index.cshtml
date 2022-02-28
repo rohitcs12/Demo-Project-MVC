@@ -1,0 +1,20 @@
+﻿@using(Html.BeginForm("Index","Employee",FormMethod.Post))
+{
+	@ViewBag.msg
+<table>
+	<tr>
+		<td><input type="text" name="name" /></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="designation" /></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="salary" /></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" value="Insert New Employee" />
+		</td>
+	</tr>
+</table>
+}
